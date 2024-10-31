@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHBgoInm04Van55vMV71Xexlvh7_-uVnjTtA&s",
+    "name": "John Doe",
+    "role": "Forward",
+    "price": "$10,000"
+  },
+  {
+    "id": 2,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpzQeYH31qhcvQ6wUH5ge7OtYl14-c8lroYQ&s",
+    "name": "John",
+    "role": "Defender",
+    "price": "$8,500"
+  },
+  {
+    "id": 3,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1EuP3PGj9Xt5nmUwm5WCdf0A9JWBveAlQQ&s",
+    "name": "Darell Steward",
+    "role": "Goalkeeper",
+    "price": "$12,000"
+  },
+  {
+    "id": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQsdRco9aH9TdSVzaRRYOV72AJivRE9oLoQg&s",
+    "name": "Emily Brown",
+    "role": "Midfielder",
+    "price": "$9,000"
+  },
+  {
+    "id": 5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtYbHlQv_h754_tKuE_c7mPmxOvE6NLMifQQ&s",
+    "name": "Chris Lee",
+    "role": "Forward",
+    "price": "$11,500"
+  },
+  {
+    "id": 6,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQsdRco9aH9TdSVzaRRYOV72AJivRE9oLoQg&s",
+    "name": "Rohit Sharma",
+    "role": "Defender",
+    "price": "$9,200"
+  }
+]

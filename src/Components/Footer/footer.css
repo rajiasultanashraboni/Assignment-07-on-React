@@ -1,0 +1,129 @@
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 10px;
+}
+
+.footer-parent {
+  position: relative;
+}
+.newsletter {
+  position: absolute;
+  bottom: 400px;
+}
+.newsletter img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-bg {
+  background: rgb(6, 9, 26);
+
+  margin-top: 200px;
+  width: 100%;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+}
+
+.footer-container p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer-container ul li {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.para {
+  width: 300px;
+}
+
+.footer-container input {
+  padding: 7px 10px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+}
+.footer-container button {
+  padding: 7px 10px;
+
+  border: none;
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+  font-weight: 600;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Responsive section is here  */
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 0 10px;
+  }
+
+  .footer-container p,
+  .footer-container h5,
+  .footer-container ul li {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .para {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-container input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .footer-container button {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .newsletter {
+    position: absolute;
+    bottom: 850px;
+  }
+}
+
+/* Mobile Screens (up to 480px) */
+@media (max-width: 480px) {
+  .footer-container p,
+  .footer-container ul li {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .footer-container {
+    width: 100%;
+  }
+
+  .newsletter {
+    position: absolute;
+    bottom: 850px;
+  }
+}

@@ -1,0 +1,32 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslateblue;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+
+  /* justify-items: center; */
+}
+
+.banner {
+}
+
+.color {
+  color: white;
+}
+
+.banner-btn {
+  background-color: yellow;
+  border: 1px solid yellow;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px yellow;
+  cursor: pointer;
+}

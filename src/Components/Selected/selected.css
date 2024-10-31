@@ -1,0 +1,15 @@
+.selected-container img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.selected-container {
+  display: flex;
+}
+
+.Remove-icon {
+  color: red;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.players-container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 2px solid gray; */
+  gap: 30px;
+}
+
+/* responsive is here  */
+
+@media (max-width: 768px) {
+  .players-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For small devices (e.g., mobile) */
+@media (max-width: 480px) {
+  .players-container {
+    grid-template-columns: 1fr;
+  }
+}
